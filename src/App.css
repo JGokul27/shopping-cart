@@ -1,0 +1,42 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+li{
+  list-style: none;
+  padding: 1rem;
+  border-bottom: 2px solid #ffffff4d;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+span{
+  font-size: 1.1rem;
+}
+
+.subtotal{
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+input{
+  height: 30px;
+  width: 40px;
+  text-align: center;
+}
